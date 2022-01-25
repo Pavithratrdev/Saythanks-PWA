@@ -1,0 +1,32 @@
+.add-button{
+    padding: 1em.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #34A5DA;
+    cursor: pointer;
+    color: #ffff;
+}
+
+.offline-notification{
+    display: none;
+    padding: 1em;
+    text-align: center;
+}
+
+
+.offline-notification.show{
+    background-color: red;
+    color: white;
+    display: block;
+}
+#btnAdd {
+    background-color: var(--dark-primary-color);
+    border: 1px solid var(--dark-primary-color);
+    color: var(--text-color);
+    display: inline-block;
+    visibility: hidden;
+    text-decoration: none;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    margin: 0 auto;
+  }
